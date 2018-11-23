@@ -1,0 +1,49 @@
+{
+  "name": "konami.js",
+  "version": "1.0.0",
+  "description": "↑↑↓↓←→←→BA",
+  "main": "dist/konami.min.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js",
+    "test": "mocha --require babel-register --reporter=nyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Treast/konami.js.git"
+  },
+  "keywords": [
+    "konami",
+    "konami code",
+    "code",
+    "perfect"
+  ],
+  "author": "Vincent Riva <vincent.riva@outlook.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Treast/konami.js/issues"
+  },
+  "homepage": "https://github.com/Treast/konami.js#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "mocha": "^5.2.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "gsap": "^2.0.1",
+    "lodash": "^4.17.10"
+  }
+}

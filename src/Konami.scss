@@ -1,0 +1,21 @@
+.konami-image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0) scale(0);
+    height: 80vh;
+
+    &.konami-image-reveal {
+        animation: konamiAnimation 2s ease-in-out forwards;
+    }
+}
+
+@keyframes konamiAnimation {
+    from {
+        transform: translate3d(-50%, -50%, 0) scale(0);
+    }
+
+    to {
+        transform: translate3d(-50%, -50%, 0) scale(1);
+    }
+}
