@@ -1,6 +1,6 @@
 {
   "name": "perfect-konami.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "↑↑↓↓←→←→BA",
   "main": "dist/konami.min.js",
   "scripts": {
