@@ -1,5 +1,5 @@
 {
-  "name": "konami.js",
+  "name": "perfect-konami.js",
   "version": "1.0.0",
   "description": "↑↑↓↓←→←→BA",
   "main": "dist/konami.min.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Treast/konami.js.git"
+    "url": "git+https://github.com/Treast/perfect-konami.js.git"
   },
   "keywords": [
     "konami",
@@ -20,9 +20,9 @@
   "author": "Vincent Riva <vincent.riva@outlook.fr>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Treast/konami.js/issues"
+    "url": "https://github.com/Treast/perfect-konami.js/issues"
   },
-  "homepage": "https://github.com/Treast/konami.js#readme",
+  "homepage": "https://github.com/Treast/perfect-konami.js#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",

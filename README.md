@@ -1,2 +1,2 @@
-# konami.js
+# perfect-konami.js
 ↑↑↓↓←→←→BA
