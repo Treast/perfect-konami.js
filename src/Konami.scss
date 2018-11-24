@@ -4,6 +4,7 @@
     left: 50%;
     transform: translate3d(-50%, -50%, 0) scale(0);
     height: 80vh;
+    z-index: 100000000000;
 
     &.konami-image-reveal {
         animation: konamiAnimation 2s ease-in-out forwards;
